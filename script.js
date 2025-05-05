@@ -198,7 +198,7 @@ document.addEventListener('DOMContentLoaded', function() {
         hiddenEmoji.style.position = 'fixed';
         hiddenEmoji.style.right = '20px';
         hiddenEmoji.style.bottom = '20px';
-        hiddenEmoji.style.fontSize = '10px';
+        hiddenEmoji.style.fontSize = '5px';
         hiddenEmoji.style.opacity = '0.1';
         hiddenEmoji.style.cursor = 'pointer';
         hiddenEmoji.style.zIndex = '9999';
@@ -207,12 +207,12 @@ document.addEventListener('DOMContentLoaded', function() {
         
         hiddenEmoji.addEventListener('mouseover', () => {
             hiddenEmoji.style.opacity = '0.3';
-            hiddenEmoji.style.fontSize = '20px';
+            hiddenEmoji.style.fontSize = '8px';
         });
         
         hiddenEmoji.addEventListener('mouseout', () => {
             hiddenEmoji.style.opacity = '0.1';
-            hiddenEmoji.style.fontSize = '10px';
+            hiddenEmoji.style.fontSize = '5px';
         });
         
         hiddenEmoji.addEventListener('click', showCoupon);
